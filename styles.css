@@ -1,0 +1,141 @@
+body{
+	background-color:#78c380;
+
+}
+.link{
+	background-image:url(images/zelda.png);
+	width:32px;
+	height:32px;
+	display:block;
+	background-repeat: no-repeat;
+	position:absolute;
+
+	transition-property: top, left;
+	transition-duration: .2s;
+}
+
+#navigation{
+	position:fixed;
+	top:20px;
+	right:20px;
+	width:90px;
+	height:90px;
+}
+
+#pave{
+	position:relative;
+
+}
+
+.left{
+	background: url(images/boutons.png)  30px 30px;
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:30px;
+	left:0px;
+}
+
+.right{
+	background: url(images/boutons.png) 30px 0px;
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:30px;
+	right:0px;
+}
+
+.top{
+	background: url(images/boutons.png) 0 0;
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:0px;
+	left:30px;
+}
+
+.bottom{
+	background: url(images/boutons.png) 0 30px;
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:60px;
+	left:30px;
+}
+
+.dirBas1{
+	background-position: 0px 0px;
+}
+.dirBas2{
+	background-position: -32px 0px;
+}
+.dirBas3{
+	background-position: -64px 0px;
+}
+.dirBas4{
+	background-position: -96px 0px;
+}
+.dirBas5{
+	background-position: -128px 0px;
+}
+.dirBas6{
+	background-position: -160px 0px;
+}
+
+
+.dirGauche1{
+	background-position: 0px -33px;
+}
+.dirGauche2{
+	background-position: -32px -33px;
+}
+.dirGauche3{
+	background-position: -64px -33px;
+}
+.dirGauche4{
+	background-position: -96px -33px;
+}
+.dirGauche5{
+	background-position: -128px -33px;
+}
+.dirGauche6{
+	background-position: -160px -33px;
+}
+
+.dirDroite1{
+	background-position: 0px -64px;
+}
+.dirDroite2{
+	background-position: -32px -64px;
+}
+.dirDroite3{
+	background-position: -64px -64px;
+}
+.dirDroite4{
+	background-position: -96px -64px;
+}
+.dirDroite5{
+	background-position: -128px -64px;
+}
+.dirDroite6{
+	background-position: -160px -64px;
+}
+
+.dirHaut1{
+	background-position: 0px -96px;
+}
+.dirHaut2{
+	background-position: -32px -96px;
+}
+.dirHaut3{
+	background-position: -64px -96px;
+}
+.dirHaut4{
+	background-position: -96px -96px;
+}
+.dirHaut5{
+	background-position: -128px -96px;
+}
+.dirHaut6{
+	background-position: -160px -96px;
+}
